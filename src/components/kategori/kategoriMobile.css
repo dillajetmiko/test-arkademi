@@ -1,0 +1,75 @@
+.kategori-container-mobile {
+  margin-block: 50px;
+}
+
+.judul-kategori-mobile {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1C1D20;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.kategori-wrapper-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kategori-mobile {
+  padding: 8px 20px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 3.5px 9px rgba(0, 0, 0, 0.131556);
+  border-radius: 6.32787px;
+  margin-bottom: 10px;
+}
+
+
+.kategori-mobile > img {
+  width: 36.54px;
+  height: 30.51px;
+}
+
+.kategori-mobile > p {
+  margin: 0;
+  margin-left: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333539;
+}
+
+.kategori-mobile > * {
+  margin-block: 5px;
+}
+
+.kategori-lihat-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.kategori-lihat-mobile > a {
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border: 0.8px solid #C0C2C6;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  color: #333539;
+  text-decoration: none;
+  text-transform: capitalize;
+}

@@ -1,0 +1,62 @@
+.container-carousel-mobile {
+  width: 90%;
+  margin: auto;
+  padding-inline: 18px;
+  overflow: hidden;
+}
+
+.swiper.mySwiper-mobile {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.mySwiper-mobile .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.mySwiper-mobile .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: auto;
+}
+
+.mySwiper-mobile .swiper-button-prev{
+  left: -15px;
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.147427);
+  border-radius: 50%;
+}
+
+.mySwiper-mobile .swiper-button-prev::before,
+.mySwiper-mobile .swiper-button-prev::after {
+  font-size: 12px;
+  color: #333539;
+}
+
+.mySwiper-mobile .swiper-button-next{
+  right: -15px;
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.147427);
+  border-radius: 50%;
+}
+
+.mySwiper-mobile .swiper-button-next::before,
+.mySwiper-mobile .swiper-button-next::after {
+  font-size: 12px;
+  color: #333539;
+}
+
+.swiper.mySwiper-mobile .swiper-pagination-bullet-active {
+  background: #333539;
+}

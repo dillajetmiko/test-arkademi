@@ -1,0 +1,75 @@
+.kategori-container {
+  margin-block: 50px;
+}
+
+.judul-kategori {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1C1D20;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.kategori-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kategori {
+  width: 161px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 0px 3.5px 4px rgba(0, 0, 0, 0.131556);
+  border-radius: 10px;
+}
+
+.kategori:not(:last-child) {
+  margin-right: 10px;
+}
+
+.kategori>p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.6559px;
+  line-height: 13px;
+  text-align: center;
+  color: #333539;
+  margin: 0;
+}
+
+.kategori>* {
+  margin-block: 5px;
+}
+
+.kategori-lihat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.kategori-lihat>a {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border: 0.8px solid #2BA0E7;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #1E96E0;
+  text-decoration: none;
+  text-transform: capitalize;
+}

@@ -1,0 +1,90 @@
+.navbar {
+  background: linear-gradient(192.48deg, #0977BE -120.7%, #1C88CE 285.22%);
+  filter: drop-shadow(0px 2px 7px rgba(31, 46, 60, 0.179988));
+}
+
+.navbar-container {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-container img {
+  margin-inline: 10px;
+}
+
+.navbar-container .arkademi-logo {
+  margin-left: 0;
+}
+
+.pencarian {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  height: 36.43px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-inline: 5px;
+  box-sizing: border-box;
+}
+
+.pencarian > input {
+  width: 90%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ACAEB2;
+  border: none;
+  outline:0; 
+}
+
+.tombol-registrasi {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.tombol-registrasi a {
+  padding: 5px 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tombol-masuk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36.43px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tombol-masuk > a {
+  color: #0977BE;
+}
+
+.tombol-daftar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36.43px;
+  background: #1E95DD;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tombol-daftar > a {
+  color: #FFFFFF;
+}
+
